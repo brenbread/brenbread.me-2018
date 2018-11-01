@@ -53,18 +53,22 @@ class NavBar extends Component {
             SDVX
           </DropdownToggle>
           <DropdownMenu className="drop-menu" right>
-            <DropdownItem className="item-1">
+            <DropdownItem className="item">
               <NavLink href="/sdvx" target="_blank" rel="noopener noreferrer">
                 <Badge color="info">WIP</Badge>&nbsp;SDVX Calculators</NavLink>
             </DropdownItem>
             <DropdownItem divider className="drop-divider"/>
-            <DropdownItem className="item-2">
+            <DropdownItem className="item">
               <NavLink href="/score-calculator" target="_blank" rel="noopener noreferrer">
                 <Badge color="secondary">OLD</Badge>&nbsp;SDVX Score Calculator</NavLink>
             </DropdownItem>
-            <DropdownItem className="item-3">
+            <DropdownItem className="item">
               <NavLink href="/grade-calculator" target="_blank" rel="noopener noreferrer">
                 <Badge color="secondary">OLD</Badge>&nbsp;SDVX Grade Calculator</NavLink>
+            </DropdownItem>
+            <DropdownItem className="item">
+              <NavLink href="/volforce-calculator" target="_blank" rel="noopener noreferrer">
+                <Badge color="secondary">OLD</Badge>&nbsp;SDVX Volforce Calculator</NavLink>
             </DropdownItem>
           </DropdownMenu>
         </UncontrolledDropdown>

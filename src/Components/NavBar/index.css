@@ -22,17 +22,7 @@
   border-color: #0B0C10 !important;
 }
 
-.item-1:hover, .item-1:active, .item-1:focus, .item-1:link {
-  background-color: #3e5066 !important;
-  -webkit-transition: .5s ease-out;
-}
-
-.item-2:hover, .item-2:active, .item-2:focus, .item-2:link {
-  background-color: #3e5066 !important;
-  -webkit-transition: .5s ease-out;
-}
-
-.item-3:hover, .item-3:active, .item-3:focus, .item-3:link {
+.item:hover, .item:active, .item:focus, .item:link {
   background-color: #3e5066 !important;
   -webkit-transition: .5s ease-out;
 }

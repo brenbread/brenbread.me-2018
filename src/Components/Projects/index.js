@@ -39,7 +39,7 @@ class Projects extends Component {
             <CardBody>
               <h3><a href="/sdvx" target="_blank" rel="noopener noreferrer">Sound Voltex Calculators</a>&nbsp;<span className="subtext">October 2018 - Present</span></h3>
               <h4>React</h4>
-              <CardText>Web application for players of the arcade game SOUND VOLTEX (SDVX) used to calculate score, grade, and volforce (coming soon).</CardText>
+              <CardText>{arrowList()}Web application for players of the arcade game SOUND VOLTEX (SDVX) used to calculate score, grade, and volforce (coming soon).</CardText>
             </CardBody>
           </Card>
         </Col>
@@ -54,7 +54,7 @@ class Projects extends Component {
           <CardBody>
             <h3><a href="https://github.com/brenbread/cmpe138-arcade-db-project" target="_blank" rel="noopener noreferrer">Arcade Manager</a>&nbsp;<span className="subtext">March 2018 - May 2018</span></h3>
             <h4>MySQL, Express, React, Node</h4>
-            <CardText>Web application for a database systems class that emulates a management system for an arcade. The application supports inventory/facilities management as well as emulating credit transactions for games.</CardText>
+            <CardText>{arrowList()}Web application for a database systems class that emulates a management system for an arcade. The application supports inventory/facilities management as well as emulating credit transactions for games.</CardText>
           </CardBody>
         </Card>
       </Col>

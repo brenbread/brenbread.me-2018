@@ -1,0 +1,85 @@
+/* Whole Main Container */
+.Main {
+  text-align: center;
+  background-color: #1F2833;
+  color: white;
+  font-size: calc(2px + 2vmin);
+}
+
+/* Container Breaker */
+.break-container {
+  min-height: 15vh;
+}
+
+/* Landing Header */
+.Main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: white;
+  padding-bottom: 30vh;
+}
+
+/* About Containers */
+.about, .experience, .projects, .contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15vh;
+}
+
+.experience, .projects, .contact {
+  padding-top: 15vh;
+}
+
+.about:active {
+  color:white;
+}
+
+
+/* image styling */
+img {
+    filter: grayscale(100%);
+    -webkit-transition:.5s;
+}
+
+img:hover {
+  filter: grayscale(0%);
+  -webkit-transition:.5s;
+}
+
+footer {
+  background-color: #12181e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-size: calc(6px + 2vmin);
+  z-index: 1 !important;
+}
+
+/* Style the span */
+span {
+  color: #66FCF1;
+}
+
+/* Link Styling */
+a, a:visited, a:link, a:active, a:focus {
+  color: #66FCF1 !important;
+  -webkit-transition:.5s;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: calc(36px + 2vmin) !important;
+}

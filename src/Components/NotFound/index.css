@@ -1,0 +1,12 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.not-found-type {
+  font-size: calc(60px + 2vmin) !important;
+  color: white !important;
+}

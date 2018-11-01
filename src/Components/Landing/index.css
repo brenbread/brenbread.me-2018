@@ -1,0 +1,20 @@
+.main-text {
+  font-size: calc(64px + 2vmin) !important;
+}
+
+.subtext {
+  color: #C5C6C7;
+}
+
+.typed {
+  font-size: calc(20px + 2vmin) !important;
+}
+
+.get-in-touch-button {
+  color: #66FCF1 !important;
+  border-color: #66FCF1 !important;
+}
+
+.get-in-touch-button:hover {
+  background-color: #143331 !important;
+}

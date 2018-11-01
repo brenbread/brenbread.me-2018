@@ -29,7 +29,7 @@ class About extends Component {
                    </CardText>
                  </Col>
                  <Col>
-                   <img src={require('../../assets/img/bren.jpeg')} />
+                   <img src={require('../../assets/img/bren.jpeg')} alt="It me" />
                  </Col>
               </Row>
               <br />

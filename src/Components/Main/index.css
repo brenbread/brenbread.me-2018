@@ -34,7 +34,7 @@
 
 /* image styling */
 img {
-    filter: grayscale(100%);
+    filter: grayscale(60%);
     -webkit-transition:.5s;
 }
 

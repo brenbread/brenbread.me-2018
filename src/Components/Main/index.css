@@ -23,23 +23,14 @@
 }
 
 /* About Containers */
-.about, .experience, .projects, .contact {
+#about, #experience, #projects, #contact {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
 }
-
-.experience, .projects, .contact {
-  padding-top: 15vh;
-}
-
-.about:active {
-  color:white;
-}
-
 
 /* image styling */
 img {

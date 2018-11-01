@@ -1,11 +1,8 @@
 //Dependencies
 import React, {Component} from 'react';
-import {Animated} from "react-animated-css";
 import {Row, Col} from 'reactstrap';
-import ScrollAnimation from 'react-animate-on-scroll'; //animation
 import Sticky from 'react-stickynode'; //sticky navbar
 import './index.css';
-import "animate.css/animate.min.css"; //div animations
 
 //Page Components
 import About from '../About';
@@ -52,13 +49,7 @@ class Main extends Component {
         innerZ={1}
         onStateChange={this.handleNavbarState}
         shouldFreeze={this.showNavbarOnUp}>
-        <Animated className="navbar-container"
-          animationIn="fadeInRight" animationOut="fadeOut"
-          animationInDelay={200}
-          animationOutDelay={200}
-          isVisible={true}>
           <NavBar/>
-        </Animated>
       </Sticky>
     <Row className="break-container">
       <Col className="text-left" xm="6" md={{
@@ -67,50 +58,21 @@ class Main extends Component {
         }}>
       </Col>
     </Row>
-      <header
-        className="Main-header">
-        <Animated
-          animationIn="fadeInLeft"
-          animationInDelay={400}>
+      <header className="Main-header">
           <Landing/>
-        </Animated>
       </header>
       <div className="Main-container">
         <div id="about">
-          <ScrollAnimation
-            className="about"
-            animateIn="fadeInLeft"
-            animateOnce={true}
-            delay={400}>
-            <About/>
-          </ScrollAnimation>
+          <About/>
         </div>
         <div id="experience">
-          <ScrollAnimation
-            className="experience"
-            animateIn="fadeInLeft"
-            animateOnce={true}
-            delay={400}>
-              <Experience/>
-          </ScrollAnimation>
+          <Experience/>
         </div>
-        <div id="projects">
-        <ScrollAnimation
-          className="projects"
-          animateIn="fadeInLeft"
-          animateOnce={true}
-          delay={400}>
-            <Projects/>
-        </ScrollAnimation>
+      <div id="projects">
+          <Projects/>
       </div>
       <div id="contact">
-          <ScrollAnimation
-            className="contact"
-            animateIn="fadeInLeft"
-            animateOnce={true}
-            delay={400}>
-              <Contact/>
-          </ScrollAnimation>
+          <Contact/>
         </div>
       </div>
       <Footer/>

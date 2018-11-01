@@ -25,22 +25,28 @@ class NavBar extends Component {
       <Social className="social-icons"/>
       <Nav className="ml-auto" navbar>
         <NavItem>
-          <Link
-            smooth to="/#about"
-            >
-            <NavLink>
-              About
-            </NavLink>
+          <Link to="/#about"
+            scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+            <NavLink>About</NavLink>
           </Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#experience">Experience</NavLink>
+          <Link to="/#experience"
+            scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+            <NavLink>Experience</NavLink>
+          </Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#projects">Projects</NavLink>
+          <Link to="/#projects"
+            scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+            <NavLink>Projects</NavLink>
+          </Link>
         </NavItem>
         <NavItem>
-          <NavLink href="#contact">Contact</NavLink>
+          <Link to="/#contact"
+            scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
+            <NavLink>Contact</NavLink>
+          </Link>
         </NavItem>
         <UncontrolledDropdown nav inNavbar>
           <DropdownToggle nav caret>

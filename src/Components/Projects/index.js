@@ -30,6 +30,22 @@ class Projects extends Component {
         </Col>
         </Row>
         <hr />
+          <Row className="website">
+            <Col className="text-left" sm="12" md={{ size: 6, offset: 3 }}>
+              <Card style={{ backgroundColor: 'transparent', borderColor: 'transparent' }}>
+                <a href="/">
+                  <CardImg top width="100%" src={require('../../assets/img/homepage-v1.png')} alt="Homepage" />
+                </a>
+                <CardBody>
+                  <h3><a href="https://github.com/brenbread/brenbread.me-2018" target="_blank" rel="noopener noreferrer">This Website!</a>&nbsp;<span className="subtext">October 2018</span></h3>
+                  <h4>React, Nginx</h4>
+                  <CardText>{arrowList()}Used to showcase projects like this one!/CardText>
+                  <CardText>{arrowList()}Deployed on an Ubuntu server using Nginx and Linode cloud services</CardText>
+                </CardBody>
+              </Card>
+            </Col>
+            </Row>
+        <hr />
         <Row className="sdvx-calc">
           <Col className="text-left" sm="6" md={{ size: 6, offset: 3 }}>
           <Card style={{ backgroundColor: 'transparent', borderColor: 'transparent' }}>

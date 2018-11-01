@@ -21,6 +21,11 @@ https://brenbread.me/
 3. `npm start`
 
 ## TODO
-* Add animations to each div id
+* Make site mobile friendly
+* Add animations to each div id + on page load
+* Scroll-up brings back navbar
 * Hide hash from id links
 * Include updated resume
+
+## Acknowledgments
+* [Eric](https://github.com/Aeriqu/) for testing and for being helpful in general

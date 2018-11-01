@@ -2,6 +2,8 @@
 import React, {Component} from 'react';
 import {Row, Col} from 'reactstrap';
 import Sticky from 'react-stickynode'; //sticky navbar
+import ScrollToTop from 'react-scroll-up';
+import Ionicon from 'react-ionicons';
 import './index.css';
 
 //Page Components
@@ -45,6 +47,9 @@ class Main extends Component {
     /* TODO: Improved sticky navbar later */
     // let showNavbarOnUp = this.state.showNavbarOnUp;
     return (<div className="Main">
+    <ScrollToTop showUnder={160}>
+      <Ionicon icon="md-arrow-dropup-circle" color="white" fontSize="6vh" />
+    </ScrollToTop>
       <Sticky bottomBoundary=".break-container"
         innerZ={1}
         onStateChange={this.handleNavbarState}

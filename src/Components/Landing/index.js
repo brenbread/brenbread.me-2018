@@ -35,7 +35,7 @@ class Landing extends Component {
           <p>I have done work on projects such as&nbsp;
             <a href="https://github.com/kammce/Telemetry" target="_blank" rel="noopener noreferrer">Telemetry</a>
             &nbsp;(a web application that interacts with serial devices), &amp; currently developing the new homepage for&nbsp;
-            <a href="http://sce.engr.sjsu.edu/">SCE</a>.</p>
+            <a href="http://sce.engr.sjsu.edu/" target="_blank" rel="noopener noreferrer">SCE</a>.</p>
           <p>Currently seeking internship opportunities for Spring/Summer 2019!</p>
           <Button outline="outline" className="get-in-touch-button" href="https://www.linkedin.com/in/brensantos17/" target="_blank" rel="noopener noreferrer">Get In Touch!</Button>
         </Col>
